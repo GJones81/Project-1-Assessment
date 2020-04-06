@@ -6,6 +6,7 @@ let addButton = document.getElementById('add')
 let subtractButton = document.getElementById('subtract')
 let input = document.getElementById('input')
 let displayValue = 0
+input.defaultValue = 1
 
 const increaseOutput = () => {
 	let newValue = displayValue + parseInt(input.value)
