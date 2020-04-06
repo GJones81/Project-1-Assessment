@@ -5,7 +5,7 @@ let inputArea = document.getElementById('inputArea')
 let addButton = document.getElementById('add')
 let subtractButton = document.getElementById('subtract')
 let input = document.getElementById('input')
-let displayValue = 1
+let displayValue = 0
 
 const increaseOutput = () => {
 	let newValue = displayValue + parseInt(input.value)
